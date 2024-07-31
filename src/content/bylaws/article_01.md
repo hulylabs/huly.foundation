@@ -9,7 +9,7 @@ pubDate: 2024-07-31
 
 The name of this organization shall be the Huly Foundation (hereinafter referred to as the "Foundation").
 
-### Section 2. Purpose
+## Section 2. Purpose
 
 The main purpose of the Foundation is to support, develop, and promote the [Huly Project](https://huly.io). Inspired by Satoshi Nakamoto, who aimed to give people control over their own money, the Huly Project aims to give people control over their own data.
 
@@ -25,7 +25,7 @@ By building a full economy around the Huly Project with various services and pro
 4. Build a strong and diverse community of developers, users, and stakeholders in the Huly ecosystem.
 5. Ensure the Huly Project remains sustainable and decentralized.
 
-### Section 3. Guiding Principles
+## Section 3. Guiding Principles
 
 The Foundation will follow these principles:
 
@@ -44,6 +44,6 @@ The Foundation will follow these principles:
 
 The Foundation shall operate as a non-profit entity. Any income generated through its activities shall be used solely for the furtherance of its stated purposes and shall not be distributed to its members, directors, officers, or other private persons.
 
-### Section 5. Commitment to Open Source
+## Section 5. Commitment to Open Source
 
 In the spirit of transparency and community collaboration, all software developed by the Foundation for the Huly Project shall be open-source and made publicly available under MIT open-source license.
