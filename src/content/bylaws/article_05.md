@@ -17,16 +17,16 @@ The Huly Foundation is committed to maintaining the highest standards of transpa
 
 ## Section 3. Financial Reporting
 
-The Foundation shall maintain real-time, publicly accessible dashboards showing:
-1. Current token distribution
-1. Treasury balances
-1. Staking participation and rewards
-1. Token burning progress
+1. The Foundation shall maintain real-time, publicly accessible dashboards showing:
+    1. Current token distribution
+    1. Treasury balances
+    1. Staking participation and rewards
+    1. Token burning progress
 
-Quarterly financial reports shall be published, including:
-1. Detailed breakdown of Foundation expenses
-1. Income from staking rewards
-1. Any other sources of revenue or expenditure
+1. Quarterly financial reports shall be published, including:
+    1. Detailed breakdown of Foundation expenses
+    1. Income from staking rewards
+    1. Any other sources of revenue or expenditure
 
 ## Section 4. Project Development Reporting
 
