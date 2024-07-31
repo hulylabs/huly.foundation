@@ -13,7 +13,7 @@ html {
   --color-text: #ddd;
   --color-header: white;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --fill-vector-graphics: #444;
     --stroke-vector-graphics: #888;
