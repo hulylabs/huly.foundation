@@ -1,0 +1,140 @@
+html {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+:root {
+  --color-avatar-border: #8888;
+
+  --fill-vector-graphics: #ccc;
+  --stroke-vector-graphics: #333;
+  --color-background: #13151a;
+  --color-text: #ddd;
+  --color-header: white;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fill-vector-graphics: #444;
+    --stroke-vector-graphics: #888;
+
+    --color-background: #ccc;
+    --color-text: #222;
+    --color-header: #13151a;
+  }
+}
+html {
+  background: var(--color-background);
+  color: var(--color-text);
+}
+h1,
+h2,
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: var(--color-header);
+}
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+}
+h1 b {
+  font-weight: 200;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 200;
+}
+h3 strong {
+  font-weight: 500;
+}
+svg {
+  fill: var(--color-text);
+}
+a {
+  color: var(--color-text);
+  white-space: nowrap;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color-text);
+}
+li,
+p {
+  font-size: 14px;
+  line-height: 24px;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+      "Droid Sans", "Helvetica Neue", sans-serif; */
+}
+code {
+  /* border-bottom: 1px dotted var(--color-text); */
+  color: var(--color-header);
+}
+li {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+ul {
+  list-style: square;
+}
+ol {
+  list-style: lower-alpha;
+}
+ol ol {
+  list-style: lower-roman;
+}
+ol ol ol {
+  list-style: lower-greek;
+}
+
+.highlight {
+  transition:
+    color 2s ease 10s,
+    border-color 2s ease 10s;
+}
+.highlight:hover {
+  transition:
+    color 0.2s ease-out,
+    border-color 0.2s ease-out;
+  color: var(--color-header);
+  border-color: var(--color-header);
+}
+.sep {
+  margin: 0 5px;
+}
+.sep::before {
+  content: "•";
+}
+svg {
+  fill: var(--fill-vector-graphics);
+  stroke: var(--stroke-vector-graphics);
+}
+.person {
+  display: flex;
+  font-size: 12px;
+}
+.title {
+  white-space: nowrap;
+  font-weight: 500;
+}
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    text-align: center;
+  }
+  li,
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+main {
+  margin: auto;
+  padding: 0 1rem;
+  width: 800px;
+  max-width: calc(100% - 2rem);
+}

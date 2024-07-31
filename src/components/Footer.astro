@@ -1,0 +1,49 @@
+---
+import HulyLogo from "./HulyLogo.astro";
+---
+
+<footer>
+  <p>
+    &copy; 2024 <a href="https://huly.foundation">Huly Foundation</a>
+  </p>
+  <p>
+    Made with <a href="https://huly.io"
+      ><span><HulyLogo size={8} /></span><b>Huly</b></a
+    >
+  </p>
+  <p>
+    <a href="https://huly.blog">Blog</a>
+  </p>
+  <p>
+    <a href="https://x.com/huly_io">Twitter</a>
+  </p>
+</footer>
+
+<style>
+  footer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  p span {
+    margin-right: 2px;
+  }
+  p {
+    font-size: 11px;
+    font-weight: 300;
+    position: relative;
+    padding-right: 10px;
+  }
+  p:not(:first-child) {
+    margin-left: 10px;
+  }
+  p:not(:last-child)::after {
+    content: "·";
+    position: absolute;
+    right: 0;
+    transform: translateX(50%);
+  }
+  b {
+    font-weight: 500;
+  }
+</style>

@@ -1,0 +1,29 @@
+---
+import HulyLogo from "./HulyLogo.astro";
+---
+
+<header>
+  <p>&nbsp;</p>
+  <p>
+    Made with <a href="https://huly.io"><span><HulyLogo size={8} /></span><b>Huly</b></a><sup>&reg;</sup>
+  </p>
+</header>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+  }
+  p span {
+    margin-right: 2px;
+  }
+  p {
+    font-size: 11px;
+    font-weight: 300;
+    /* margin: 0; */
+  }
+  b {
+    font-weight: 500;
+  }
+</style>
