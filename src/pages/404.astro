@@ -1,0 +1,28 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <main>
+      <Header />
+      <div class="error">%SYSTEM-E-NOSUCHFILE</div>
+      <Footer />
+    </main>
+  </body>
+</html>
+
+<style>
+  .error {
+    white-space: nowrap;
+    font-size: 1.5em;
+    margin-top: 5vh;
+  }
+</style>
